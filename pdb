@@ -1,0 +1,27 @@
+#!/python3
+
+from Bio.PDB import PDBParser
+
+file_path = 'Users/yinglin/Desktop/test/6lu7.pdb'
+
+def extract_pdb_info(file_path):
+
+    # Create a PDB parser
+    parser = PDBParser(QUIET=True)
+
+    # parse the pdb files
+    #check to see if one argument is given
+  if $# -gt 1
+    then print "Only 1 file at a time, please"
+  else 
+    #parse pdb file
+    
+    # extract inform of the structure
+
+    # extract chain #
+
+    # extract residue count
+
+    # extract atom count
+
+    # print infor
